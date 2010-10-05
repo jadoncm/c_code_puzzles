@@ -3,3 +3,9 @@ bug01.c: Without compiling, what does the program print?
 bug02.c: what can go wrong with this code, and what precautions must be taken to use?
 
 bug03.c: What is wrong with this code? What is the fix?
+
+bug04/:  Assume 64bit operating system - why does the program segfault? 
+         func.c will be compiled as an object, caller.c is compiled as an
+         executable and linked with caller.o.
+
+         Try without compiling. If stuck, go ahead and compile. (run ./make.sh) 
