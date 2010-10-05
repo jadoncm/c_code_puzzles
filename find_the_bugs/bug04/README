@@ -1,0 +1,3 @@
+Assume 64bit operating system - why does the program segfault?
+
+Try without compiling. If stuck, go ahead and compile. (run ./make.sh) 
