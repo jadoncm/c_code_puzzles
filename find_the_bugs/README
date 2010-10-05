@@ -1,0 +1,5 @@
+bug01.c: Without compiling, what does the program print?
+
+bug02.c: what can go wrong with this code, and what precautions must be taken to use?
+
+bug03.c: What is wrong with this code? What is the fix?
