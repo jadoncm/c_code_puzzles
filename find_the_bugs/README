@@ -9,3 +9,6 @@ bug04/:  Assume 64bit operating system - why does the program segfault?
          executable and linked with caller.o.
 
          Try without compiling. If stuck, go ahead and compile. (run ./make.sh) 
+
+bug05.c: Why does this code not compile? What is the fix? (There are two ways,
+         but only one is optimal)
