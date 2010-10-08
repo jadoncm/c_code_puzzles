@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
     one = 2;   /* the minimum amount of data
     two = 3;   /* the maxiumum amount of data */
 
-    printf(" one + two = %d\n", one, two);
+    printf(" one + two = %d\n", one + two);
     return 0;
 }
 
