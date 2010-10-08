@@ -16,3 +16,5 @@ bug05.c: Why does this code not compile? What is the fix? (There are two ways,
 bug06.c: What is the output of this program?
 
 bug06.1.c: an extension to bug06.c
+
+bug07.c: Why does the program segfault upon execution?
