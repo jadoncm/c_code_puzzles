@@ -18,3 +18,5 @@ bug06.c: What is the output of this program?
 bug06.1.c: an extension to bug06.c
 
 bug07.c: Why does the program segfault upon execution?
+
+bug08.c: Here be dragons. 
