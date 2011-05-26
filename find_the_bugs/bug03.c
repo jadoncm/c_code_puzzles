@@ -3,12 +3,19 @@
 #include <stdio.h>
 
 /* function does something with the buffer */
-void do_something_with_buf(char *buf, size_t len);
+void
+do_something_with_buffer(char * buf, size_t len) {
+    return;
+}
 
 /* function connects to a server */
-int open_socket(void);
+int
+open_socket(void) {
+    return;
+}
 
-int main(int argc, char **argv) {
+int
+main(int argc, char ** argv) {
     char   buf[1024];
     size_t bytes_recvd;
     int    fd;
@@ -26,3 +33,4 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+

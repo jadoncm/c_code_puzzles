@@ -6,8 +6,9 @@
 
 #include "func.h"
 
-struct data *init_data(const char *key, int val) {
-    struct data *data;
+struct data *
+init_data(const char * key, int val) {
+    struct data * data;
 
     if (!(data = malloc(sizeof *data))) {
         printf("Out of memory!\n");
@@ -19,3 +20,4 @@ struct data *init_data(const char *key, int val) {
 
     return data;
 }
+

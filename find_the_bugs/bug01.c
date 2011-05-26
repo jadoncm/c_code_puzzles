@@ -1,8 +1,9 @@
 /* Without compiling, what does this print? */
 #include <stdio.h>
 
-const char *example(int num) {
-    const char *str;
+const char *
+example(int num) {
+    const char * str;
 
     switch (num) {
         case 1:
@@ -18,8 +19,10 @@ const char *example(int num) {
     return str;
 }
 
-int main(int argc, char **argv) {
+int
+main(int argc, char ** argv) {
     printf("%s\n", example(2));
 
     return 0;
 }
+

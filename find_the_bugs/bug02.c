@@ -3,11 +3,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-int alloc_re(char **data, unsigned int data_len, unsigned int new_data_len) {
-    char *new_data;
+int
+alloc_re(char ** data, unsigned int data_len, unsigned int new_data_len) {
+    char * new_data;
 
     if (!(new_data = malloc(new_data_len))) {
-	return -1;
+        return -1;
     }
 
     memcpy(new_data, *data, data_len);
@@ -18,3 +19,9 @@ int alloc_re(char **data, unsigned int data_len, unsigned int new_data_len) {
 
     return 0;
 }
+
+int
+main(int argc, char ** argv) {
+    return 0;
+}
+

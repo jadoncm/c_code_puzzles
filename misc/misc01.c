@@ -6,28 +6,31 @@
 #include <errno.h>
 
 #define error -1
-#define ok     0
+#define ok    0
 
-int check(uint16_t a, uint16_t b) {
-    if ((a + b) < a) {
+int
+check(uint16_t a, uint16_t b) {
+    if ((uint16_t)(a + b) < a) {
         return error;
     }
 
     return ok;
 }
 
-uint16_t sum(uint16_t a, uint16_t b, int *status) {
+uint16_t
+sum(uint16_t a, uint16_t b, int * status) {
     if (check(a, b) == error) {
         *status = error;
         return 0;
     }
-    a += b;
 
+    a      += b;
     *status = ok;
     return a;
 }
 
-int main(int argc, char **argv) {
+int
+main(int argc, char ** argv) {
     uint16_t num1;
     uint16_t num2;
     uint16_t summed;
@@ -56,3 +59,4 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+

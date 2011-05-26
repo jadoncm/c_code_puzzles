@@ -6,8 +6,9 @@
 
 #include "func.h"
 
-int main(int argc, char **argv) {
-    struct data *data;
+int
+main(int argc, char ** argv) {
+    struct data * data;
 
     if (!(data = (struct data *)init_data("key", 100))) {
         printf("error: %s\n", strerror(errno));

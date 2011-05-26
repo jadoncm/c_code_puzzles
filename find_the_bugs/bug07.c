@@ -7,7 +7,7 @@
 
 char *
 give_me_data(void) {
-    char *data;
+    char * data;
 
     data = alloca(1024);
 
@@ -16,8 +16,9 @@ give_me_data(void) {
     return data;
 }
 
-int main(int argc, char **argv) {
-    char *data = give_me_data();
+int
+main(int argc, char ** argv) {
+    char * data = give_me_data();
 
     printf("%s\n", data);
     free(data);
