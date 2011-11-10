@@ -3,7 +3,7 @@ NO_COLOR=\x1b[0m
 OK_STRING=$(OK_COLOR)[COMPILING]$(NO_COLOR)
 PP_STRING=$(OK_COLOR)[PREPROCESSER]$(NO_COLOR)
 
-default: bug01 bug02 bug03 bug04 bug05 bug06 bug07 bug08 bug09 misc01
+default: bug01 bug02 bug03 bug04 bug05 bug06 bug07 bug08 bug09 misc01 misc04
 
 bug01: find_the_bugs/bug01.c
 	@echo -e '$(OK_STRING)     bug01..'
@@ -45,6 +45,10 @@ bug09: find_the_bugs/bug09.c
 misc01: misc/misc01.c
 	@echo -e '$(OK_STRING)     misc01..'
 	@gcc misc/misc01.c -o misc01
-	
+
+misc04: misc/misc04.c
+	@echo -e '$(OK_STRING)     misc04..'
+	@gcc misc/misc04.c -o misc04
+
 clean:
-	@rm -rfv bug* find_the_bugs/bug04/func.o ./misc01
+	@rm -rfv bug* find_the_bugs/bug04/func.o ./misc01 ./misc04
