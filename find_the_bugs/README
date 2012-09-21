@@ -23,3 +23,5 @@ bug08.c: Here be dragons.
 
 bug09.c: This program is meant to check for an underflow condition on a signed /
          unsigned comparison before summing. Why doesn't it work?
+
+bug10.c: undefined badness!
