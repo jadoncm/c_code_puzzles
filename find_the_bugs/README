@@ -1,27 +1,25 @@
 bug01.c: Without compiling, what does the program print?
 
 bug02.c: what can go wrong with this code, and what precautions must be taken to use?
-
 bug03.c: What is wrong with this code? What is the fix?
 
-bug04/:  Assume 64bit operating system - why does the program segfault? 
+bug04/:  Assume 64bit operating system - why does the program segfault?
          func.c will be compiled as an object, caller.c is compiled as an
          executable and linked with caller.o.
 
-         Try without compiling. If stuck, go ahead and compile. (run ./make.sh) 
+         Try without compiling. If stuck, go ahead and compile. (run ./make.sh)
 
 bug05.c: Why does this code not compile? What is the fix? (There are two ways,
          but only one is optimal)
 
 bug06.c: What is the output of this program?
-
 bug06.1.c: an extension to bug06.c
-
 bug07.c: Why does the program segfault upon execution?
-
-bug08.c: Here be dragons. 
+bug08.c: Here be dragons.
 
 bug09.c: This program is meant to check for an underflow condition on a signed /
          unsigned comparison before summing. Why doesn't it work?
 
-bug10.c: undefined badness!
+bug10.c: help, this won't compile!
+bug11.c: undefined badness!
+bug12.c: why naming maters.
